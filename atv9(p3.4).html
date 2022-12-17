@@ -1,0 +1,37 @@
+<script>
+    const primeiro =  parseInt(prompt("Digite o primeiro numero"))
+    const o = prompt ("Digite a operaçao que deseja realizar (+,-,*,/)")
+    const segundo  =  parseInt(prompt ("Digite o segundo numero"))
+    
+     function adiçao(a, b) {
+      return a + b
+     }
+     function subitraçao(a, b) {
+      return a - b
+     }
+     function multiplicaçao(a, b) {
+      return a * b
+     }
+     function divisao (a, b) {
+      return a / b
+     }
+     switch (o) {
+            case '+':
+                alert (adiçao (primeiro,segundo))
+                break;
+            case '-':
+                alert (subitraçao(primeiro,segundo))
+                break;
+            case '*':
+                alert (multiplicaçao(primeiro,segundo))
+                break;
+            case '/':
+                alert (divisao(primeiro,segundo))
+                break;
+            default:
+                alert ("Operação invalida")
+                break;
+                
+        
+     }
+</script>
